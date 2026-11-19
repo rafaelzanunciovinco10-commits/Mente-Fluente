@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MenteFluente · +100 Mapas Mentais para Dominar o Inglês</title>
+<meta name="description" content="Aprenda inglês do básico ao avançado com 125 mapas mentais ilustrados, exemplos traduzidos e exercícios com gabarito. Estude pelo celular, tablet ou impresso.">
+<meta property="og:title" content="+100 Mapas Mentais para Dominar o Inglês · MenteFluente">
+<meta property="og:description" content="Inglês de forma visual, organizada e prática: 125 mapas mentais do básico ao avançado.">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="theme-color" content="#1F2B5B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M9 6h30a7 7 0 0 1 7 7v17a7 7 0 0 1-7 7H22l-9 8v-8H9a7 7 0 0 1-7-7V13a7 7 0 0 1 7-7z' fill='%231F2B5B'/%3E%3Cpath d='M11 27c3-8 6-10 8-4s5 6 7 0 5-8 8-1 4 4 4 4' fill='none' stroke='%23fff' stroke-width='3.2' stroke-linecap='round'/%3E%3Ccircle cx='38' cy='13' r='3.4' fill='%23F26B5B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1F2B5B; --navy2:#16204A; --coral:#E0484F; --coral2:#C9373E; --cream:#FCF8EE; --paper:#FFFDF8;
+  --ink:#2E2E3A; --muted:#5E5E72; --line:#E7DFCC;
+  --green:#3E9B5A; --blue:#2F7FC1; --orange:#E8892B; --purple:#6B4FA8; --teal:#1E9A9A; --yellow:#F7C744;
+  --r:20px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Poppins,system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55;-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(circle,#E9E1CE 1px,transparent 1.2px);background-size:22px 22px}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+.narrow{max-width:760px}
+section{padding:64px 0;position:relative}
+.center{text-align:center}
+
+/* tipografia */
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--coral);
+  background:#FCE9E9;border:1.5px dashed #F2A7AA;border-radius:999px;padding:6px 14px;margin-bottom:16px}
+.dark .eyebrow{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.3);color:#FFD2D4}
+h1,h2,h3{color:var(--navy);line-height:1.15;font-weight:800;letter-spacing:-.3px}
+h1{font-size:clamp(32px,8.6vw,58px)}
+h2{font-size:clamp(26px,6.4vw,40px);margin-bottom:12px}
+h3{font-size:18px}
+.script{font-family:Lora,serif;font-style:italic;font-weight:500}
+.lead{font-size:clamp(16px,4.2vw,19px);color:var(--muted);max-width:640px;margin:0 auto}
+.hl{color:var(--coral)}
+.mark{background:linear-gradient(transparent 62%,#FFD9A8 62%);padding:0 4px}
+.under{position:relative;display:inline-block}
+.under:after{content:"";position:absolute;left:-2%;right:-2%;bottom:-6px;height:10px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'%3E%3Cpath d='M2 8 C 60 2, 130 12, 198 5' fill='none' stroke='%23E0484F' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center/100% 100%}
+.dark{background:var(--navy);color:#E7EAF5;background-image:radial-gradient(circle,rgba(255,255,255,.07) 1px,transparent 1.2px);background-size:22px 22px}
+.dark h2,.dark h3{color:#fff}
+.dark .lead{color:#C4CAE0}
+
+/* botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-weight:800;font-size:17px;letter-spacing:.2px;
+  color:#fff;background:var(--coral);border-radius:999px;padding:18px 34px;box-shadow:0 6px 0 var(--coral2),0 14px 26px rgba(224,72,79,.32);
+  transition:transform .15s,box-shadow .15s;text-align:center;line-height:1.2;width:100%;max-width:440px}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 var(--coral2),0 6px 14px rgba(224,72,79,.3)}
+.btn svg{flex:0 0 auto}
+.btn-pulse{animation:pulse 2.4s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 6px 0 var(--coral2),0 14px 26px rgba(224,72,79,.32),0 0 0 0 rgba(224,72,79,.45)}60%{box-shadow:0 6px 0 var(--coral2),0 14px 26px rgba(224,72,79,.32),0 0 0 14px rgba(224,72,79,0)}}
+.cta-box{margin-top:34px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.micro{font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:center}
+.dark .micro{color:#C4CAE0}
+
+/* topo */
+.topbar{background:var(--navy);color:#fff;font-size:13px;text-align:center;padding:9px 14px;font-weight:500}
+.topbar b{color:#FFD2D4}
+.header{padding:16px 0 0}
+.logo{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:21px;text-decoration:none;color:var(--navy)}
+.logo span span{color:#F26B5B}
+
+/* hero */
+.hero{padding:26px 0 56px;text-align:center}
+.hero h1{margin:4px 0 16px}
+.hero .big{display:inline-block;color:#fff;background:var(--coral);border-radius:14px;padding:0 14px;transform:rotate(-1.5deg);box-shadow:4px 5px 0 var(--navy)}
+.hero-img{margin:30px auto 0;max-width:900px;border-radius:24px;overflow:hidden;border:3px solid var(--navy);box-shadow:8px 10px 0 var(--navy),0 24px 50px rgba(31,43,91,.25);background:#fff}
+.chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.chip{display:flex;align-items:center;gap:8px;background:var(--paper);border:2px solid var(--navy);border-radius:14px;padding:8px 14px;font-size:14px;font-weight:600;color:var(--navy)}
+.chip b{font-size:20px;color:var(--coral);font-weight:800}
+
+/* galeria */
+.carousel{width:100%;overflow:hidden;padding:26px 0 18px;margin-top:10px;cursor:grab;touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.carousel.grabbing{cursor:grabbing}
+.ctrack{display:flex;width:max-content;animation:scrollMarquee 40s linear infinite;will-change:transform}
+.cgroup{display:flex;gap:20px;padding-right:20px;flex-shrink:0}
+.thumb{width:360px;flex:0 0 auto;border-radius:16px;overflow:hidden;border:5px solid #fff;box-shadow:0 10px 30px rgba(0,0,0,.35);cursor:inherit;background:#fff;padding:0;transition:transform .3s,box-shadow .3s}
+.thumb:hover{transform:translateY(-6px);box-shadow:0 15px 35px rgba(0,0,0,.45)}
+.thumb img{width:100%;aspect-ratio:1123/794;object-fit:cover;pointer-events:none}
+@keyframes scrollMarquee{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
+@media (max-width:768px){.thumb{width:280px;border-width:4px}.cgroup{gap:16px;padding-right:16px}}
+@media (max-width:480px){.thumb{width:240px;border-width:3px}.cgroup{gap:12px;padding-right:12px}}
+.hint{margin-top:6px;font-size:14px;color:#C4CAE0;text-align:center}
+
+/* lightbox */
+.lb{position:fixed;inset:0;background:rgba(14,19,42,.92);display:none;align-items:center;justify-content:center;z-index:100;padding:16px;flex-direction:column;gap:12px}
+.lb.on{display:flex}
+.lb img{max-height:82vh;width:auto;max-width:100%;border-radius:12px;background:#fff}
+.lb button{position:absolute;top:14px;right:14px;width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:var(--navy);font-size:24px;font-weight:700;cursor:pointer}
+.lb p{color:#C4CAE0;font-size:13px}
+
+/* anatomia */
+.anat{display:grid;gap:28px;margin-top:34px;align-items:center}
+.anat-img{position:relative;border-radius:18px;overflow:hidden;border:3px solid var(--navy);box-shadow:6px 8px 0 var(--navy);background:#fff}
+.pin{position:absolute;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;background:var(--coral);color:#fff;font-weight:800;font-size:15px;
+  display:grid;place-items:center;border:3px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,.35);animation:pop 2s infinite}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.legend{display:grid;gap:12px}
+.leg{display:flex;gap:14px;align-items:flex-start;background:var(--paper);border:2px solid var(--line);border-radius:16px;padding:14px 16px}
+.leg .n{flex:0 0 32px;height:32px;border-radius:50%;background:var(--coral);color:#fff;font-weight:800;display:grid;place-items:center}
+.leg h3{font-size:16px;margin-bottom:2px}
+.leg p{font-size:14px;color:var(--muted)}
+
+/* benefícios */
+.grid{display:grid;gap:16px;margin-top:34px}
+.ben{background:var(--paper);border:2px solid var(--c);border-radius:var(--r);padding:20px;box-shadow:4px 5px 0 rgba(60,50,30,.08);text-align:left}
+.ben .ic{width:52px;height:52px;border-radius:50%;background:color-mix(in srgb,var(--c) 14%,#fff);display:grid;place-items:center;margin-bottom:12px;font-size:26px}
+.ben h3{font-size:17px;margin-bottom:6px;color:color-mix(in srgb,var(--c) 75%,#000)}
+.ben p{font-size:14.5px;color:var(--muted)}
+
+/* módulos */
+.pointer{display:inline-block;font-size:28px;animation:bounce 1.4s infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
+.mods{display:grid;gap:12px;margin-top:20px;text-align:left}
+.mod{background:var(--paper);border:2px solid var(--c);border-radius:18px;overflow:hidden;box-shadow:3px 4px 0 rgba(60,50,30,.07)}
+.mod summary{list-style:none;display:flex;align-items:center;gap:14px;padding:12px 14px;cursor:pointer}
+.mod summary::-webkit-details-marker{display:none}
+.mod .cv{flex:0 0 76px;border-radius:8px;overflow:hidden;border:1.5px solid var(--line)}
+.mod .nm{flex:1;min-width:0}
+.mod .nm small{display:block;font-size:11.5px;font-weight:700;letter-spacing:1.5px;color:var(--c)}
+.mod .nm b{display:block;font-size:16.5px;color:var(--navy);line-height:1.25}
+.mod .nm span{font-size:12.5px;color:var(--muted)}
+.mod .tg{flex:0 0 auto;width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;display:grid;place-items:center;font-weight:800;transition:transform .2s}
+.mod[open] .tg{transform:rotate(45deg)}
+.mod ol{list-style:none;padding:4px 16px 16px;display:grid;gap:6px;border-top:1.5px dashed var(--line);margin-top:2px}
+.mod li{display:flex;gap:10px;font-size:14.5px;align-items:baseline;padding-top:6px}
+.mod li i{font-style:normal;flex:0 0 38px;font-size:11.5px;font-weight:700;color:#fff;background:var(--c);border-radius:8px;text-align:center;padding:1px 0}
+
+/* para quem */
+.who{display:grid;gap:14px;margin-top:34px}
+.whoc{background:var(--paper);border:2px solid var(--navy);border-radius:var(--r);padding:20px;display:flex;gap:14px;align-items:flex-start;text-align:left;box-shadow:4px 5px 0 var(--navy)}
+.whoc .e{font-size:32px;line-height:1}
+.whoc p{font-size:14.5px;color:var(--muted)}
+
+/* bônus */
+.bonus{display:grid;gap:18px;margin-top:34px}
+.bcard{background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.18);border-radius:22px;padding:14px 14px 18px;display:flex;flex-direction:column;gap:14px;text-align:left}
+.bimg{border-radius:14px;overflow:hidden;border:3px solid #fff;box-shadow:0 10px 26px rgba(0,0,0,.35);background:#fff;cursor:zoom-in;padding:0}
+.bimg img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.bcard .bt-txt{padding:0 4px}
+.bcard .tag{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:1.5px;color:var(--navy);background:var(--yellow);border-radius:8px;padding:2px 9px;margin-bottom:6px}
+.bcard h3{font-size:18px;margin-bottom:4px}
+.bcard p{font-size:14px;color:#C4CAE0}
+.bcard .inc{margin-top:8px;font-size:13px;font-weight:700;color:#9BE3B0}
+
+/* oferta */
+.offer{background:var(--paper);border:3px solid var(--navy);border-radius:28px;box-shadow:10px 12px 0 var(--navy);padding:28px 20px;max-width:620px;margin:34px auto 0;text-align:center;position:relative}
+.ribbon{position:absolute;top:-18px;left:50%;transform:translateX(-50%) rotate(-2deg);background:var(--yellow);color:var(--navy);font-weight:800;font-size:13px;letter-spacing:1px;padding:6px 18px;border-radius:10px;border:2px solid var(--navy);white-space:nowrap}
+.mock{position:relative;height:250px;margin:14px auto 22px;max-width:460px}
+.mock .paper{position:absolute;left:4%;top:28px;width:62%;transform:rotate(-7deg);border-radius:6px;box-shadow:0 10px 20px rgba(0,0,0,.18);border:1px solid var(--line)}
+.mock .tablet{position:absolute;left:18%;top:0;width:70%;background:#1A1F33;border-radius:18px;padding:9px;box-shadow:0 18px 30px rgba(0,0,0,.28)}
+.mock .tablet img{border-radius:9px}
+.mock .phone{position:absolute;right:0;bottom:6px;width:30%;background:#1A1F33;border-radius:18px;padding:6px;box-shadow:0 14px 26px rgba(0,0,0,.3);aspect-ratio:9/17;display:flex;align-items:center}
+.mock .phone img{border-radius:10px;transform:rotate(0)}
+.offer-img{margin:18px 0 22px;border-radius:16px;overflow:hidden;border:2.5px solid var(--navy);box-shadow:5px 6px 0 var(--navy)}
+.inc-list{list-style:none;text-align:left;display:grid;gap:10px;margin:0 auto 22px;max-width:460px}
+.inc-list li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+.inc-list li:before{content:"✓";flex:0 0 24px;height:24px;border-radius:50%;background:var(--green);color:#fff;font-weight:800;font-size:13px;display:grid;place-items:center;margin-top:1px}
+.inc-list li.bon:before{background:var(--orange)}
+.price{margin:6px 0 4px}
+.price small{display:block;font-size:14px;color:var(--muted);font-weight:500}
+.price b{display:block;font-size:clamp(52px,15vw,70px);color:var(--navy);font-weight:900;line-height:1.05;letter-spacing:-1.5px}
+.price b sup{font-size:.4em;vertical-align:super;margin-right:4px;letter-spacing:0}
+.price em{font-style:normal;display:inline-block;margin-top:4px;font-size:13.5px;font-weight:700;color:var(--green);background:#EAF5EC;border-radius:8px;padding:3px 10px}
+
+/* passos */
+.steps{display:grid;gap:14px;margin-top:34px}
+.step{background:var(--paper);border:2px solid var(--line);border-radius:var(--r);padding:20px;text-align:left;display:flex;gap:14px}
+.step .n{flex:0 0 44px;width:44px;height:44px;align-self:flex-start;border-radius:50%;background:var(--navy);color:#fff;font-weight:800;font-size:19px;display:grid;place-items:center}
+.step p{font-size:14.5px;color:var(--muted)}
+
+/* faq */
+.faq{display:grid;gap:10px;margin-top:30px;text-align:left}
+.faq details{background:var(--paper);border:2px solid var(--line);border-radius:16px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:600;color:var(--navy);display:flex;justify-content:space-between;gap:12px;font-size:15.5px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";flex:0 0 28px;height:28px;border-radius:50%;background:#FCE9E9;color:var(--coral);display:grid;place-items:center;font-weight:800;transition:transform .2s}
+.faq details[open] summary:after{transform:rotate(45deg)}
+.faq details p{padding:0 18px 16px;font-size:14.5px;color:var(--muted)}
+
+/* depoimentos (reservado) */
+.testis{display:grid;gap:16px;margin-top:34px}
+
+/* final */
+.final h2{font-size:clamp(26px,6.6vw,42px)}
+.checks{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;margin-top:18px;font-size:14.5px;color:#E7EAF5}
+.checks li:before{content:"✓ ";color:#9BE3B0;font-weight:800}
+
+footer{padding:34px 0 110px;text-align:center;font-size:13px;color:var(--muted)}
+footer nav{display:flex;gap:18px;justify-content:center;margin:10px 0}
+footer .disc{max-width:620px;margin:10px auto 0;font-size:12px}
+
+/* barra fixa mobile */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(252,248,238,.96);
+  backdrop-filter:blur(6px);border-top:2px solid var(--line);display:flex;align-items:center;gap:12px;transform:translateY(110%);transition:transform .3s}
+.sticky.on{transform:none}
+.sticky .p{line-height:1.1}
+.sticky .p small{font-size:11px;color:var(--muted);display:block}
+.sticky .p b{font-size:20px;color:var(--navy);font-weight:900}
+.sticky .btn{padding:13px 18px;font-size:15px;box-shadow:0 4px 0 var(--coral2)}
+
+/* animação de entrada */
+.fx{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.fx.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.fx{opacity:1;transform:none}.btn-pulse,.pointer,.pin{animation:none}}
+
+@media (min-width:720px){
+  section{padding:88px 0}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .who{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .step{flex-direction:column}
+  .bonus{grid-template-columns:repeat(2,1fr)}
+  .mods{grid-template-columns:repeat(2,1fr);align-items:start}
+  .mock{height:320px}
+  .sticky{display:none}
+  footer{padding-bottom:40px}
+}
+@media (min-width:980px){
+  .grid{grid-template-columns:repeat(4,1fr)}
+  .anat{grid-template-columns:1.35fr 1fr}
+  .mods{grid-template-columns:repeat(3,1fr)}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">📱 Material 100% digital · <b>Estude no celular, no tablet ou imprima</b></div>
+
+<header class="header"><div class="wrap">
+  <a class="logo" href="#" aria-label="MenteFluente">
+    <svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true"><path d="M9 6h30a7 7 0 0 1 7 7v17a7 7 0 0 1-7 7H22l-9 8v-8H9a7 7 0 0 1-7-7V13a7 7 0 0 1 7-7z" fill="#1F2B5B"/><path d="M11 27c3-8 6-10 8-4s5 6 7 0 5-8 8-1 4 4 4 4" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="13" r="3.4" fill="#F26B5B"/></svg>
+    <span>Mente<span>Fluente</span></span>
+  </a>
+</div></header>
+
+<!-- 1 · HERO -->
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">✏️ Inglês visual · do básico ao avançado</div>
+  <h1><span class="big">+100</span> Mapas Mentais<br>para <span class="under">Dominar o Inglês</span></h1>
+  <p class="lead">Gramática, vocabulário, conversação e pronúncia explicados em mapas ilustrados, com exemplos em inglês e tradução. Para entender, memorizar e revisar <b>sem se perder em livros e aulas extensas</b>.</p>
+  <div class="hero-img fx"><img src="assets/hero.webp" width="1400" height="788" alt="Mockup do material MenteFluente: +100 Mapas Mentais para Dominar o Inglês em computador, tablet e caderno, com os bônus"></div>
+  <div class="cta-box">
+    <a class="btn btn-pulse" href="#oferta">Quero meus mapas mentais <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <div class="micro">⚡ Acesso liberado logo após a confirmação do pagamento</div>
+  </div>
+  <div class="chips">
+    <div class="chip"><b>125</b> mapas mentais</div>
+    <div class="chip"><b>15</b> módulos</div>
+    <div class="chip"><b>A1→C1</b> do básico ao avançado</div>
+  </div>
+</div></section>
+
+<!-- 2 · GALERIA -->
+<section class="dark center" id="por-dentro">
+  <div class="wrap">
+    <div class="eyebrow">👀 O material por dentro</div>
+    <h2>Veja exatamente o que você vai receber</h2>
+    <p class="lead">Cada mapa ensina um assunto, com regras simples, exemplos traduzidos, erros comuns e um mini exercício com gabarito.</p>
+  </div>
+  <div class="carousel" id="carousel"><div class="ctrack" id="ctrack"></div></div>
+  <p class="hint">👆 Arraste para os lados ou toque em um mapa para ampliar</p>
+  <div class="wrap"><div class="cta-box"><a class="btn" href="#oferta">Quero meus mapas mentais</a></div></div>
+</section>
+
+<!-- 3 · ANATOMIA -->
+<section id="como-funciona"><div class="wrap">
+  <div class="center">
+    <div class="eyebrow">🧠 Por que funciona</div>
+    <h2>Cada mapa foi pensado para você <span class="hl">entender e lembrar</span></h2>
+    <p class="lead">Nada de páginas cheias de texto. A informação é organizada do jeito que o cérebro gosta: em partes, com cores e exemplos.</p>
+  </div>
+  <div class="anat">
+    <div class="anat-img fx">
+      <img src="assets/mapa-122.webp" width="1400" height="990" alt="Exemplo de mapa mental: Pares Confusos (say, tell, speak, talk, see, watch, look)">
+      <span class="pin" style="left:50%;top:27%">1</span>
+      <span class="pin" style="left:6.5%;top:19%">2</span>
+      <span class="pin" style="left:33%;top:31.5%">3</span>
+      <span class="pin" style="left:93%;top:64.5%">4</span>
+      <span class="pin" style="left:11%;top:91.5%">5</span>
+    </div>
+    <div class="legend">
+      <div class="leg fx"><span class="n">1</span><div><h3>Círculo central</h3><p>O tema inteiro resumido em uma frase.</p></div></div>
+      <div class="leg fx"><span class="n">2</span><div><h3>Cards numerados e coloridos</h3><p>Um passo de cada vez, na ordem certa de leitura.</p></div></div>
+      <div class="leg fx"><span class="n">3</span><div><h3>Exemplo em inglês + tradução</h3><p>A frase em inglês com a tradução natural logo abaixo.</p></div></div>
+      <div class="leg fx"><span class="n">4</span><div><h3>Erro comum</h3><p>O que brasileiros costumam errar (✗) e a forma certa (✓).</p></div></div>
+      <div class="leg fx"><span class="n">5</span><div><h3>Mini exercício com gabarito</h3><p>Pratique na hora e confira as respostas.</p></div></div>
+    </div>
+  </div>
+</div></section>
+
+<!-- 4 · BENEFÍCIOS -->
+<section class="center" style="padding-top:20px"><div class="wrap">
+  <div class="eyebrow">⭐ O que você recebe</div>
+  <h2>Tudo o que você precisa, <span class="under">organizado</span> em um só lugar</h2>
+  <div class="grid">
+    <div class="ben fx" style="--c:var(--coral)"><div class="ic">🗺️</div><h3>Mais de 100 mapas mentais</h3><p>São 125 mapas, cada um focado em um único assunto.</p></div>
+    <div class="ben fx" style="--c:var(--blue)"><div class="ic">📈</div><h3>Do básico ao avançado</h3><p>Do alfabeto aos condicionais, nos níveis A1 a C1.</p></div>
+    <div class="ben fx" style="--c:var(--green)"><div class="ic">🧩</div><h3>Gramática sem complicação</h3><p>Regras explicadas em linguagem simples, com o essencial em destaque.</p></div>
+    <div class="ben fx" style="--c:var(--orange)"><div class="ic">📚</div><h3>Vocabulário por categorias</h3><p>Família, casa, comida, trabalho, viagens e muito mais.</p></div>
+    <div class="ben fx" style="--c:var(--purple)"><div class="ic">💬</div><h3>Exemplos com tradução</h3><p>Frases reais em inglês com a tradução natural em português.</p></div>
+    <div class="ben fx" style="--c:var(--teal)"><div class="ic">🎨</div><h3>Ilustrado e fácil de revisar</h3><p>Cores, ícones e cards que ajudam a memorizar.</p></div>
+    <div class="ben fx" style="--c:var(--navy)"><div class="ic">📱</div><h3>Celular, tablet ou impresso</h3><p>PDFs em alta qualidade, nítidos em qualquer tela ou no papel.</p></div>
+    <div class="ben fx" style="--c:var(--coral)"><div class="ic">✍️</div><h3>Exercícios e gabaritos</h3><p>Mini exercício em cada mapa e gabarito em cada módulo.</p></div>
+  </div>
+  <div class="cta-box"><a class="btn" href="#oferta">Quero meus mapas mentais</a></div>
+</div></section>
+
+<!-- 5 · MÓDULOS -->
+<section id="modulos" class="center" style="background:rgba(255,255,255,.5)"><div class="wrap">
+  <div class="eyebrow">📦 Organização do material</div>
+  <h2>125 mapas em 15 módulos, do básico ao avançado</h2>
+  <p class="lead">Siga a ordem se está começando, ou vá direto ao que você precisa.</p>
+  <p style="margin-top:18px;font-weight:700;color:var(--navy)"><span class="pointer">👇</span><br>Toque em um módulo para ver os mapas</p>
+  <div class="mods" id="mods"></div>
+  <div class="cta-box"><a class="btn" href="#oferta">Quero todos os módulos</a></div>
+</div></section>
+
+<!-- 6 · PARA QUEM -->
+<section class="center"><div class="wrap">
+  <div class="eyebrow">🎯 Para quem é</div>
+  <h2>Feito para quem quer aprender <span class="hl">sem enrolação</span></h2>
+  <div class="who">
+    <div class="whoc fx"><span class="e">🌱</span><div><h3>Está começando do zero</h3><p>A ordem dos módulos guia você desde o primeiro passo: alfabeto, números e saudações.</p></div></div>
+    <div class="whoc fx"><span class="e">⏰</span><div><h3>Tem pouco tempo</h3><p>Um mapa cabe em uma página e pode ser revisado em poucos minutos.</p></div></div>
+    <div class="whoc fx"><span class="e">🔁</span><div><h3>Já estudou e esqueceu</h3><p>Retome a base de forma rápida e organizada, sem recomeçar um curso inteiro.</p></div></div>
+    <div class="whoc fx"><span class="e">🎯</span><div><h3>Quer praticidade</h3><p>Nada de apostilas densas: o essencial de cada assunto, direto ao ponto.</p></div></div>
+  </div>
+</div></section>
+
+<!-- 7 · BÔNUS (edite a lista BONUS no script; deixe vazia para esconder a seção) -->
+<section class="dark center" id="bonus"><div class="wrap">
+  <div class="eyebrow">🎁 Bônus inclusos</div>
+  <h2>Você também recebe <span style="color:var(--yellow)" id="bonus-count">4 bônus</span></h2>
+  <p class="lead">Materiais extras para ampliar seu vocabulário e soar mais natural.</p>
+  <div class="bonus" id="bonus-list"></div>
+</div></section>
+
+<!-- DEPOIMENTOS (reservado): remova o atributo hidden quando tiver depoimentos reais de alunos -->
+<section class="center" id="depoimentos" hidden><div class="wrap">
+  <div class="eyebrow">💬 Depoimentos</div>
+  <h2>O que os alunos dizem</h2>
+  <div class="testis">
+    <!-- Modelo de card (duplique para cada depoimento real):
+    <div class="whoc"><div><p>“Texto do depoimento real.”</p><h3 style="margin-top:8px">Nome do aluno</h3></div></div>
+    -->
+  </div>
+</div></section>
+
+<!-- 8 · OFERTA -->
+<section id="oferta" class="center"><div class="wrap">
+  <div class="eyebrow">💰 Oferta</div>
+  <h2>Comece hoje a aprender inglês <span class="under">de forma visual</span></h2>
+  <div class="offer fx">
+    <div class="ribbon">TUDO O QUE VOCÊ RECEBE</div>
+    <div class="offer-img"><img src="assets/hero.webp" width="1400" height="788" alt="Material MenteFluente em computador, tablet e caderno"></div>
+    <ul class="inc-list" id="inc-list">
+      <li><span><b>125 mapas mentais</b> em 15 módulos, do básico ao avançado</span></li>
+      <li><span><b>15 PDFs por módulo</b> + 1 PDF completo com tudo</span></li>
+      <li><span><b>Mini exercícios</b> em todos os mapas, com <b>gabarito</b></span></li>
+      <li><span>Capa, sumário e guia <b>“Como usar”</b></span></li>
+      <li><span>Estude no <b>celular, tablet ou impresso</b> (A4)</span></li>
+    </ul>
+    <div class="price"><small>Tudo isso por um pagamento único de</small><b><sup>R$</sup>19,90</b><em>Sem mensalidade</em></div>
+    <div class="cta-box" style="margin-top:20px">
+      <a class="btn btn-pulse js-checkout" href="#">Quero meus mapas mentais agora <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="micro">🔒 Pagamento processado pela Kiwify</div>
+    </div>
+  </div>
+</div></section>
+
+<!-- 9 · ENTREGA -->
+<section class="center" style="padding-top:20px"><div class="wrap">
+  <div class="eyebrow">⚡ Entrega digital</div>
+  <h2>Como você recebe o material?</h2>
+  <div class="steps">
+    <div class="step fx"><span class="n">1</span><div><h3>Finalize a compra</h3><p>Escolha a forma de pagamento no checkout seguro da Kiwify.</p></div></div>
+    <div class="step fx"><span class="n">2</span><div><h3>Receba o acesso</h3><p>Após a confirmação do pagamento, o acesso chega no e-mail que você cadastrou.</p></div></div>
+    <div class="step fx"><span class="n">3</span><div><h3>Baixe e estude</h3><p>Abra os PDFs no celular, no tablet ou no computador, ou imprima em A4.</p></div></div>
+  </div>
+  <div class="cta-box"><a class="btn js-checkout" href="#">Quero meus mapas mentais</a></div>
+</div></section>
+
+<!-- 10 · FAQ -->
+<section id="faq" class="center" style="background:rgba(255,255,255,.5)"><div class="wrap narrow">
+  <div class="eyebrow">❓ Dúvidas</div>
+  <h2>Perguntas frequentes</h2>
+  <div class="faq">
+    <details><summary>Preciso saber inglês para começar?</summary><p>Não. Os primeiros módulos começam do zero, com alfabeto, números, saudações e o verbo to be, e o conteúdo avança aos poucos até o nível avançado.</p></details>
+    <details><summary>O material é físico?</summary><p>Não. É um material digital em PDF. Se preferir estudar no papel, você pode imprimir em casa ou numa gráfica.</p></details>
+    <details><summary>Posso estudar pelo celular?</summary><p>Sim. Os PDFs abrem em qualquer leitor de PDF. Como as páginas são na horizontal, gire o celular para ler melhor e use o zoom à vontade: o texto continua nítido.</p></details>
+    <details><summary>Posso imprimir os mapas?</summary><p>Sim. As páginas foram feitas em tamanho A4 paisagem. Basta imprimir com a opção “ajustar à página”.</p></details>
+    <details><summary>Como recebo o acesso?</summary><p>Depois que o pagamento é confirmado, você recebe o acesso no e-mail cadastrado na compra.</p></details>
+    <details><summary>O pagamento é mensal?</summary><p>Não. É um pagamento único de R$ 19,90, sem mensalidade.</p></details>
+    <details><summary>Os bônus estão incluídos?</summary><p>Sim. Os bônus vêm junto na mesma compra, sem custo adicional.</p></details>
+    <details><summary>Quanto tempo preciso estudar por dia?</summary><p>Você define o seu ritmo. Cada mapa ocupa uma página e pode ser lido e revisado em poucos minutos. Estudar um mapa por dia já cria uma rotina constante.</p></details>
+    <details><summary>O material substitui um curso de inglês?</summary><p>Não é um curso com aulas em vídeo. É um material de estudo e revisão visual, que pode ser usado por conta própria ou como complemento de aulas, cursos e aplicativos.</p></details>
+    <details><summary>Tem exercícios?</summary><p>Sim. Todo mapa tem um mini exercício, e cada módulo termina com uma página de gabarito para você conferir as respostas.</p></details>
+  </div>
+</div></section>
+
+<!-- 11 · CTA FINAL -->
+<section class="dark center final"><div class="wrap narrow">
+  <div class="eyebrow">🚀 Comece agora</div>
+  <h2>Seu inglês mais organizado começa com o primeiro mapa</h2>
+  <p class="lead">Mais de 100 mapas mentais para estudar no seu ritmo, revisar quando quiser e finalmente enxergar como o inglês funciona.</p>
+  <ul class="checks"><li>125 mapas mentais</li><li>15 módulos</li><li id="final-bonus">4 bônus</li><li>Exercícios + gabarito</li></ul>
+  <div class="cta-box">
+    <a class="btn btn-pulse js-checkout" href="#">Quero meus mapas por R$ 19,90</a>
+    <div class="micro">Pagamento único · Material digital em PDF</div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <a class="logo" href="#" style="font-size:18px"><span>Mente<span>Fluente</span></span></a>
+  <nav><a href="#">Termos de uso</a><a href="#">Política de privacidade</a><a href="#">Contato</a></nav>
+  <p>© 2026 MenteFluente. Todos os direitos reservados.</p>
+  <p class="disc">Este é um material educativo digital. Os resultados dependem da dedicação e da rotina de estudo de cada pessoa.</p>
+</div></footer>
+
+<div class="sticky" id="sticky">
+  <div class="p"><small>Pagamento único</small><b>R$ 19,90</b></div>
+  <a class="btn js-checkout" href="#" style="flex:1">Quero meus mapas</a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Mapa ampliado">
+  <button type="button" aria-label="Fechar">×</button>
+  <img alt="">
+  <p>Toque fora da imagem para fechar</p>
+</div>
+
+<script>
+/* ===== CONFIGURAÇÃO: troque pelo link do seu checkout da Kiwify ===== */
+const CHECKOUT_URL = "https://pay.kiwify.com.br/CORu5ti";
+
+/* Bônus: edite, adicione ou remova. Lista vazia = a seção some da página. */
+const BONUS = [
+  {img:"assets/bonus-1.webp", n:"1.000", t:"Palavras mais usadas em inglês", d:"As palavras que mais aparecem no dia a dia, reunidas para você estudar e revisar.", c:"#2F7FC1"},
+  {img:"assets/bonus-2.webp", n:"150",   t:"Verbos essenciais",              d:"Os verbos mais importantes do inglês em um só material de consulta.",            c:"#3E9B5A"},
+  {img:"assets/bonus-3.webp", n:"100",   t:"Phrasal verbs indispensáveis",   d:"Os phrasal verbs mais comuns para entender e falar como no inglês real.",        c:"#E8892B"},
+  {img:"assets/bonus-4.webp", n:"200",   t:"Expressões usadas por nativos",  d:"Expressões do inglês do dia a dia para entender conversas, séries e músicas.",   c:"#6B4FA8"},
+];
+
+const MAPS = [["004","Cores e formas"],["006","As horas"],["015","Verb to be"],["022","Verbos irregulares"],["043","Must e have to"],["055","Clima e tempo"],
+              ["063","Comparativos"],["069","Preposições de lugar"],["089","No restaurante"],["101","O som do TH"],["108","Second conditional"],["122","Pares confusos"]];
+
+const MODULES = [{"m": 1, "name": "Fundamentos", "level": "A1", "maps": [[1, "Alfabeto e soletração"], [2, "Números de 0 a 100"], [3, "Números grandes, ordinais e preços"], [4, "Cores e formas"], [5, "Dias, meses, estações e datas"], [6, "Horas"], [7, "Saudações e despedidas"]]}, {"m": 2, "name": "Pronomes e Artigos", "level": "A1", "maps": [[8, "Pronomes pessoais (sujeito)"], [9, "Pronomes objeto"], [10, "Possessivos"], [11, "Pronomes reflexivos"], [12, "This, that, these, those"], [13, "Artigos a / an"], [14, "Artigo the"]]}, {"m": 3, "name": "Verbos e Tempos Verbais", "level": "A1–B1", "maps": [[15, "Verb to be (presente)"], [16, "Simple present (afirmativa)"], [17, "Simple present (negativa e perguntas)"], [18, "Present continuous"], [19, "Simple present × present continuous"], [20, "Was e were"], [21, "Simple past (regulares)"], [22, "Simple past (30 irregulares essenciais)"], [23, "Past continuous"], [24, "Futuro com will"], [25, "Going to"], [26, "Present perfect"], [27, "Present perfect × simple past"], [28, "Present perfect continuous"], [29, "Past perfect"]]}, {"m": 4, "name": "Estrutura das Frases", "level": "A1–A2", "maps": [[30, "Ordem da frase"], [31, "There is / there are"], [32, "Imperativo"], [33, "Conectivos básicos"], [34, "Sujeito obrigatório e o “it”"], [35, "Sugestões"]]}, {"m": 5, "name": "Gramática Essencial", "level": "A2–B1", "maps": [[36, "Plural dos substantivos"], [37, "Contáveis e incontáveis"], [38, "Much, many e a lot of"], [39, "Some, any e no"], [40, "Few, a few, little, a little"], [41, "Possessivo com 's"], [42, "Can e could"], [43, "Must e have to"], [44, "Should"], [45, "Would e would like"], [46, "Too e enough"], [47, "Gerúndio × infinitivo"]]}, {"m": 6, "name": "Vocabulário do Dia a Dia", "level": "A1–A2", "maps": [[48, "Família"], [49, "Corpo humano"], [50, "Casa e cômodos"], [51, "Comida e bebidas"], [52, "Roupas e acessórios"], [53, "Profissões"], [54, "Rotina diária"], [55, "Clima e tempo"], [56, "Animais"], [57, "Escola e estudos"], [58, "Trabalho e escritório"]]}, {"m": 7, "name": "Adjetivos e Advérbios", "level": "A2", "maps": [[59, "Adjetivos opostos essenciais"], [60, "Sentimentos e emoções"], [61, "Adjetivos -ed × -ing"], [62, "Ordem dos adjetivos"], [63, "Comparativos"], [64, "Superlativos"], [65, "Advérbios de frequência"], [66, "Advérbios de modo"]]}, {"m": 8, "name": "Preposições", "level": "A2–B1", "maps": [[67, "In, on, at (tempo)"], [68, "In, on, at (lugar)"], [69, "Preposições de lugar"], [70, "Preposições de movimento"], [71, "For, since, during, ago"], [72, "Verbos + preposição"]]}, {"m": 9, "name": "Perguntas e Respostas", "level": "A2–B1", "maps": [[73, "Wh- questions"], [74, "How + adjetivo"], [75, "Perguntas de sim/não e respostas curtas"], [76, "Perguntas de sujeito × objeto"], [77, "Question tags"], [78, "Perguntas indiretas e educadas"]]}, {"m": 10, "name": "Conversação", "level": "A2–B1", "maps": [[79, "Apresentando-se"], [80, "Small talk"], [81, "Pedidos educados"], [82, "Convites"], [83, "Opinião, concordar e discordar"], [84, "Agradecer e pedir desculpas"], [85, "Telefone e videochamada"]]}, {"m": 11, "name": "Inglês para Viagens", "level": "A2", "maps": [[86, "No aeroporto"], [87, "Imigração e alfândega"], [88, "No hotel"], [89, "No restaurante"], [90, "Pedindo direções"], [91, "Transporte"], [92, "Compras e dinheiro"], [93, "Emergências e saúde"]]}, {"m": 12, "name": "Expressões Comuns", "level": "B1", "maps": [[94, "Phrasal verbs do dia a dia"], [95, "Phrasal verbs com get"], [96, "Make × do"], [97, "Idioms populares"], [98, "Inglês informal"], [99, "Reações rápidas"]]}, {"m": 13, "name": "Pronúncia", "level": "A2–B1", "maps": [[100, "Vogais curtas × longas"], [101, "O som do TH"], [102, "Pronúncia do -ED"], [103, "Pronúncia do -S final"], [104, "Letras mudas"], [105, "R, H e consoantes finais"], [106, "Entonação e connected speech"]]}, {"m": 14, "name": "Intermediário e Avançado", "level": "B1–C1", "maps": [[107, "Zero e first conditional"], [108, "Second conditional"], [109, "Third e mixed conditional"], [110, "Voz passiva"], [111, "Discurso indireto"], [112, "Relative clauses"], [113, "Used to, be used to, get used to"], [114, "Wish e if only"], [115, "Modais de dedução"], [116, "Causative: have something done"], [117, "Conectivos avançados"]]}, {"m": 15, "name": "Erros Comuns de Brasileiros", "level": "A1–C1", "maps": [[118, "Falsos cognatos I"], [119, "Falsos cognatos II"], [120, "Traduções literais"], [121, "Preposições trocadas"], [122, "Pares confusos I"], [123, "Pares confusos II"], [124, "Artigos e plural"], [125, "Terceira pessoa e auxiliares"]]}];
+const COLS = ["#3E9B5A","#2F7FC1","#E8892B","#D9444B","#6B4FA8","#1E9A9A"];
+
+/* links de compra */
+document.querySelectorAll(".js-checkout").forEach(a => { a.href = CHECKOUT_URL; a.rel = "noopener"; });
+
+/* galeria: carrossel contínuo (arrastável) */
+const ctrack = document.getElementById("ctrack"), car = document.getElementById("carousel");
+const group = `<div class="cgroup">${MAPS.map(([k,t]) =>
+  `<button class="thumb" type="button" data-src="assets/mapa-${k}.webp" data-t="${t}"><img src="assets/mapa-${k}-thumb.webp" alt="Mapa mental: ${t}" width="520" height="368" draggable="false"></button>`).join("")}</div>`;
+ctrack.innerHTML = group + group.replace('class="cgroup"', 'class="cgroup" aria-hidden="true"');
+const DUR = 40;
+let drag = null, moved = false;
+const curX = () => new DOMMatrixReadOnly(getComputedStyle(ctrack).transform).m41;
+car.addEventListener("pointerdown", e => {
+  drag = {x0: e.clientX, t0: curX()}; moved = false;
+  ctrack.style.animation = "none"; ctrack.style.transform = `translate3d(${drag.t0}px,0,0)`;
+  car.classList.add("grabbing");
+});
+window.addEventListener("pointermove", e => {
+  if (!drag) return;
+  const dx = e.clientX - drag.x0; if (Math.abs(dx) > 6) moved = true;
+  const half = ctrack.scrollWidth / 2; let x = drag.t0 + dx;
+  x = ((x % half) - half) % half; ctrack.style.transform = `translate3d(${x}px,0,0)`;
+});
+const release = () => {
+  if (!drag) return; drag = null; car.classList.remove("grabbing");
+  const half = ctrack.scrollWidth / 2, p = (-curX() % half) / half;
+  ctrack.style.transform = ""; ctrack.style.animation = `scrollMarquee ${DUR}s linear ${-p * DUR}s infinite`;
+};
+window.addEventListener("pointerup", release); window.addEventListener("pointercancel", release);
+car.addEventListener("click", e => { if (moved) { e.stopPropagation(); e.preventDefault(); } }, true);
+
+/* lightbox */
+const lb = document.getElementById("lb"), lbi = lb.querySelector("img");
+document.addEventListener("click", e => {
+  const t = e.target.closest(".thumb, .thumb-b");
+  if (t) { lbi.src = t.dataset.src; lbi.alt = "Mapa mental: " + t.dataset.t; lb.classList.add("on"); return; }
+  if (lb.classList.contains("on") && (e.target === lb || e.target.tagName === "BUTTON" || e.target.tagName === "P")) lb.classList.remove("on");
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") lb.classList.remove("on"); });
+
+/* módulos */
+document.getElementById("mods").innerHTML = MODULES.map((m,i) => `
+  <details class="mod" style="--c:${COLS[i%6]}">
+    <summary>
+      <div class="cv"><img loading="lazy" src="assets/modulo-${String(m.m).padStart(2,"0")}.webp" alt="" width="480" height="339"></div>
+      <div class="nm"><small>MÓDULO ${String(m.m).padStart(2,"0")}</small><b>${m.name}</b><span>${m.maps.length} mapas · ${m.level}</span></div>
+      <span class="tg">+</span>
+    </summary>
+    <ol>${m.maps.map(([n,t]) => `<li><i>${n}</i>${t}</li>`).join("")}</ol>
+  </details>`).join("");
+
+/* bônus */
+const bsec = document.getElementById("bonus");
+if (!BONUS.length) { bsec.remove(); document.getElementById("final-bonus").remove(); }
+else {
+  const label = BONUS.length + (BONUS.length > 1 ? " bônus" : " bônus");
+  document.getElementById("bonus-count").textContent = label;
+  document.getElementById("final-bonus").textContent = label;
+  document.getElementById("bonus-list").innerHTML = BONUS.map((b,i) => `
+    <div class="bcard fx">
+      ${b.img ? `<button class="bimg thumb-b" type="button" data-src="${b.img}" data-t="Bônus: ${b.n} ${b.t}"><img loading="lazy" src="${b.img}" alt="Capa do bônus ${b.n} ${b.t}" width="900" height="600"></button>`
+              : `<div class="bcover" style="--c:${b.c}"><span class="bl">MENTEFLUENTE</span><div><div class="bn">${b.n}</div><div class="bt">${b.t}</div></div><span class="bl">BÔNUS #${i+1}</span></div>`}
+      <div class="bt-txt"><span class="tag">BÔNUS #${i+1}</span><h3>${b.n} ${b.t}</h3><p>${b.d}</p><div class="inc">✓ Incluso na compra</div></div>
+    </div>`).join("");
+  const li = document.createElement("li"); li.className = "bon";
+  li.innerHTML = `<span><b>${label} inclusos:</b> ${BONUS.map(b => b.n + " " + b.t.charAt(0).toLowerCase() + b.t.slice(1)).join(", ")}</span>`;
+  document.getElementById("inc-list").appendChild(li);
+}
+
+/* animação de entrada */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), {threshold:.12});
+document.querySelectorAll(".fx").forEach(el => io.observe(el));
+
+/* barra fixa (celular): aparece depois do topo e some perto da oferta */
+const sticky = document.getElementById("sticky"), hero = document.querySelector(".hero"), offer = document.getElementById("oferta");
+let pastHero = false, atOffer = false;
+const upd = () => sticky.classList.toggle("on", pastHero && !atOffer);
+new IntersectionObserver(([e]) => { pastHero = !e.isIntersecting; upd(); }).observe(hero);
+new IntersectionObserver(([e]) => { atOffer = e.isIntersecting; upd(); }, {threshold:.2}).observe(offer);
+</script>
+</body>
+</html>
